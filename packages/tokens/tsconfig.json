@@ -1,0 +1,4 @@
+{
+  "extends": "@awlc-dev/ts-config/base.json",
+  "include": ["src"]
+}

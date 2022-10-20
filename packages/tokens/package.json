@@ -1,0 +1,21 @@
+{
+  "name": "@awlc-dev/tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@awlc-dev/ts-config": "*",
+    "@awlc-dev/eslint-config": "*",
+    "tsup": "^6.3.0",
+    "typescript": "^4.8.4"
+  }
+}
