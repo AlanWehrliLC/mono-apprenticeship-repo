@@ -6,6 +6,13 @@ export default {
     component: Box,
     args: {
         children: (<Text>Testing element box</Text>)
+    },
+    argTypes: {
+        children: {
+            control: {
+                type: null
+            }
+        }
     }
 } as Meta<BoxProps>
 
