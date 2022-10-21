@@ -1,4 +1,4 @@
-import {colors} from "@awlc-dev/tokens"
+import {colors} from "@awlc/tokens"
 import {getContrast} from "polished"
 
 export function ColorsGrid(){

@@ -1,5 +1,5 @@
 {
-  "name": "@awlc-dev/react",
+  "name": "@awlc/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,9 +13,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@awlc-dev/eslint-config": "*",
-    "@awlc-dev/tokens": "*",
-    "@awlc-dev/ts-config": "*",
+    "@awlc/tokens": "*",
+    "@awlc/ts-config": "*",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",

@@ -1,4 +1,4 @@
 {
-    "extends": "@awlc-dev/ts-config/react.json",
+    "extends": "@awlc/ts-config/react.json",
     "include": ["src"]
 }

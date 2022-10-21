@@ -1,5 +1,5 @@
 {
-  "name": "@awlc-dev/tokens",
+  "name": "@awlc/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,8 +13,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@awlc-dev/ts-config": "*",
-    "@awlc-dev/eslint-config": "*",
+    "@awlc/ts-config": "*",
     "tsup": "^6.3.0",
     "typescript": "^4.8.4"
   }

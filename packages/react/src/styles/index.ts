@@ -6,7 +6,7 @@ import {
   radii,
   space,
   fonts,
-} from '@awlc-dev/tokens'
+} from '@awlc/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
