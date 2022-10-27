@@ -2,6 +2,49 @@ import { Meta } from "@storybook/addon-docs"
 
 <Meta title="Home" />
 
-# Learn Design System
+# Get started
+## Learn Design System
 
-Primeira doc
+This is my first Design System documentation, where I am using to learn how to build packages and this documentation of React components! And a monorepo!
+
+>> [mono-apprenticeship-repo](https://github.com/AlanWehrliLC/mono-apprenticeship-repo)
+
+Packages
+
+>> [@awlc/react](https://www.npmjs.com/package/@awlc/react)
+
+>> [@awlc/tokens](https://www.npmjs.com/package/@awlc/tokens)
+
+### Install
+
+Components are written in React.
+
+Add the components to your project.
+
+`npm install @awlc/react`
+
+#### **Use**
+
+Import components you want into your UI
+
+`import { Avatar, Button } from '@awlc/react';`
+
+and use them like so
+
+```
+  const example = () => (
+    <div>
+      <Avatar alt="Alan Wehrli"  src="https://github.com/AlanWehrliLC.png" />
+      <Button variant="primary" onClick={() => ()}>Send</Button>
+    </div>
+  )
+```
+As a react component!
+
+<br/>
+
+> Don't forget to check out the official Storybook documentation!
+>> Documentation [Storybook](https://storybook.js.org/)
+
+> React components are created with stitches, I recommend checking out the documentation too!
+>> Documentation [Stitches](https://stitches.dev/)
