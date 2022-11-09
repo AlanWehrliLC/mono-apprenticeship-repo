@@ -1,0 +1,2 @@
+import{A as t}from"./index.14ccaff6.js";import"./index.bf9142df.js";import"./iframe.4eeb6d25.js";import"./index.067292c5.js";import"./jsx-runtime.1c94cb90.js";const l={title:"Data display/Avatar",component:t,args:{src:"https://github.com/AlanWehrliLC.png",alt:"Alan Wehrli"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},e=["Primary","WithFallback"];export{p as Primary,c as WithFallback,e as __namedExportsOrder,l as default};
+//# sourceMappingURL=Avatar.stories.1b0aa0f9.js.map
