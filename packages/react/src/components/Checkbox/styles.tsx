@@ -3,8 +3,8 @@ import { styled, keyframes } from "../../styles"
 
 export const CheckboxContainer = styled(Checkbox.Root, {
   all: "unset",
-  width: "$6",
-  height: "$6",
+  width: "1.5rem",
+  height: "1.5rem",
   backgroundColor: "$gray900",
   borderRadius: "$xs",
   lineHeight: 0,
@@ -18,6 +18,11 @@ export const CheckboxContainer = styled(Checkbox.Root, {
 
   "&[data-state='checked']": {
     backgroundColor: "$green300",
+  },
+
+  "&[data-state='unchecked']": {
+      width: "1.5rem",
+      height: "1.5rem",
   },
 
   "&:focus": {
